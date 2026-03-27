@@ -1,0 +1,19 @@
+{
+  "name": "NovusVar - Equipos Industriales",
+  "short_name": "NovusVar",
+  "icons": [
+    {
+      "src": "android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#F57C00",
+  "background_color": "#111111",
+  "display": "standalone"
+}
