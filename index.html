@@ -26,8 +26,12 @@
     <meta name="twitter:title" content="NovusVar - Equipos Industriales Premium">
     <meta name="twitter:description" content="Venta de equipos Hyundai, consultoría energética, construcción y licitaciones. 38 años de experiencia.">
 
-    <!-- CANONICAL URL (actualizar con tu dominio real) -->
-    <link rel="canonical" href="https://novusvar.netlify.app/">
+    <!-- CANONICAL URL -->
+    <link rel="canonical" href="https://novusvar.com.mx/">
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
 
     <!-- STRUCTURED DATA (JSON-LD for Google) -->
     <script type="application/ld+json">
@@ -1717,7 +1721,7 @@
     <nav class="navbar">
         <div class="navbar-container">
             <div class="logo-section" onclick="navigateTo('home')">
-                <img src="WhatsApp Image 2026-03-26 at 4.14.24 PM.jpeg" alt="NovusVar" class="logo-img">
+                <img src="img/logo.jpeg" alt="NovusVar" class="logo-img">
                 <div class="logo-text">
                     <span class="logo-text-n">Novus</span><span class="logo-text-v">Var</span>
                 </div>
@@ -1828,7 +1832,7 @@
                         <div class="featured-badge" data-lang-es="VENTA DIRECTA" data-lang-en="DIRECT SALE">VENTA DIRECTA</div>
                         <div class="featured-layout">
                             <div class="featured-gallery">
-                                <img id="grua1MainImg" src="img/propiedades/grua_harrington_1.jpg" alt="Grúa Aérea Harrington" onerror="this.style.background='linear-gradient(135deg, #1565C0, #0d47a1)'; this.style.minHeight='100%'; this.parentElement.style.display='flex'; this.parentElement.style.alignItems='center'; this.parentElement.style.justifyContent='center'; this.alt='📷 Imagen disponible pronto';">
+                                <img id="grua1MainImg" src="img/grua_harrington_1.jpg" alt="Grúa Aérea Harrington" onerror="this.style.background='linear-gradient(135deg, #1565C0, #0d47a1)'; this.style.minHeight='100%'; this.parentElement.style.display='flex'; this.parentElement.style.alignItems='center'; this.parentElement.style.justifyContent='center'; this.alt='📷 Imagen disponible pronto';">
                                 <button class="featured-gallery-nav prev" onclick="changeGruaImg(-1)">&#8249;</button>
                                 <button class="featured-gallery-nav next" onclick="changeGruaImg(1)">&#8250;</button>
                                 <div class="featured-gallery-counter" id="grua1Counter">1 / 3</div>
@@ -2033,7 +2037,7 @@
                     <div class="property-card scroll-reveal" id="property1">
                         <div class="property-gallery">
                             <div class="property-badge" data-lang-es="EN VENTA" data-lang-en="FOR SALE">EN VENTA</div>
-                            <img id="prop1MainImg" src="img/propiedades/casa_pozarica_sala.jpg" alt="Casa en Poza Rica - Sala" onerror="this.style.background='linear-gradient(135deg, #1a1a1a, #2a2a2a)'; this.style.display='flex'; this.alt='Imagen disponible pronto'">
+                            <img id="prop1MainImg" src="img/casa_pozarica_sala.jpg" alt="Casa en Poza Rica - Sala" onerror="this.style.background='linear-gradient(135deg, #1a1a1a, #2a2a2a)'; this.style.display='flex'; this.alt='Imagen disponible pronto'">
                             <button class="property-gallery-nav prev" onclick="changePropertyImg('property1', -1)">&#8249;</button>
                             <button class="property-gallery-nav next" onclick="changePropertyImg('property1', 1)">&#8250;</button>
                             <div class="property-gallery-dots" id="prop1Dots">
@@ -2046,12 +2050,12 @@
                             </div>
                         </div>
                         <div class="property-thumbs" id="prop1Thumbs">
-                            <img src="img/propiedades/casa_pozarica_sala.jpg" class="active" onclick="goToPropertyImg('property1', 0)" alt="Sala">
-                            <img src="img/propiedades/casa_pozarica_cocina.jpg" onclick="goToPropertyImg('property1', 1)" alt="Cocina">
-                            <img src="img/propiedades/casa_pozarica_recamara1.jpg" onclick="goToPropertyImg('property1', 2)" alt="Recámara 1">
-                            <img src="img/propiedades/casa_pozarica_bano.jpg" onclick="goToPropertyImg('property1', 3)" alt="Baño">
-                            <img src="img/propiedades/casa_pozarica_fachada.jpg" onclick="goToPropertyImg('property1', 4)" alt="Fachada">
-                            <img src="img/propiedades/casa_pozarica_recamara2.jpg" onclick="goToPropertyImg('property1', 5)" alt="Recámara 2">
+                            <img src="img/casa_pozarica_sala.jpg" class="active" onclick="goToPropertyImg('property1', 0)" alt="Sala">
+                            <img src="img/casa_pozarica_cocina.jpg" onclick="goToPropertyImg('property1', 1)" alt="Cocina">
+                            <img src="img/casa_pozarica_recamara1.jpg" onclick="goToPropertyImg('property1', 2)" alt="Recámara 1">
+                            <img src="img/casa_pozarica_bano.jpg" onclick="goToPropertyImg('property1', 3)" alt="Baño">
+                            <img src="img/casa_pozarica_fachada.jpg" onclick="goToPropertyImg('property1', 4)" alt="Fachada">
+                            <img src="img/casa_pozarica_recamara2.jpg" onclick="goToPropertyImg('property1', 5)" alt="Recámara 2">
                         </div>
                         <div class="property-info">
                             <div class="property-price">$1,400,000 MXN</div>
@@ -2529,9 +2533,9 @@
 
         // Grúa gallery functionality
         const gruaImages = [
-            { src: 'img/propiedades/grua_harrington_1.jpg', label: 'Vista general de la grúa' },
-            { src: 'img/propiedades/grua_harrington_2.jpg', label: 'Detalle polipastos y rieles' },
-            { src: 'img/propiedades/grua_harrington_3.jpg', label: 'Placa del polipasto Harrington 1 Ton' }
+            { src: 'img/grua_harrington_1.jpg', label: 'Vista general de la grúa' },
+            { src: 'img/grua_harrington_2.jpg', label: 'Detalle polipastos y rieles' },
+            { src: 'img/grua_harrington_3.jpg', label: 'Placa del polipasto Harrington 1 Ton' }
         ];
         let gruaCurrentIndex = 0;
 
@@ -2548,12 +2552,12 @@
         // Property gallery functionality
         const propertyImages = {
             property1: [
-                { src: 'img/propiedades/casa_pozarica_sala.jpg', label: 'Sala' },
-                { src: 'img/propiedades/casa_pozarica_cocina.jpg', label: 'Cocina' },
-                { src: 'img/propiedades/casa_pozarica_recamara1.jpg', label: 'Recámara 1' },
-                { src: 'img/propiedades/casa_pozarica_bano.jpg', label: 'Baño' },
-                { src: 'img/propiedades/casa_pozarica_fachada.jpg', label: 'Fachada' },
-                { src: 'img/propiedades/casa_pozarica_recamara2.jpg', label: 'Recámara 2' }
+                { src: 'img/casa_pozarica_sala.jpg', label: 'Sala' },
+                { src: 'img/casa_pozarica_cocina.jpg', label: 'Cocina' },
+                { src: 'img/casa_pozarica_recamara1.jpg', label: 'Recámara 1' },
+                { src: 'img/casa_pozarica_bano.jpg', label: 'Baño' },
+                { src: 'img/casa_pozarica_fachada.jpg', label: 'Fachada' },
+                { src: 'img/casa_pozarica_recamara2.jpg', label: 'Recámara 2' }
             ]
         };
 
